@@ -3,4 +3,4 @@ This mini banking app is a HTML, CSS, and JavaScript project that closely mirror
 On the other hand, the code for the create-a-new-account functionality and the modal window was written by me. I also wrote the HTML and CSS with the intent of creating a layout similar in appearance to the Udemy project by Jonas Schmedtmann.
 
 The following is a link to the GitHub folder containing Jonas' original banking application:
-Bankist: By Jonas Schmedtmann
+Bankist: https://github.com/jonasschmedtmann/complete-javascript-course/tree/master/11-Arrays-Bankist/final
