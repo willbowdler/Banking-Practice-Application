@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bill's Banking</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/2a6269e1ee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Bill's Banking</h1>
+    </div>
+    <span class="catchphrase">Banking done right</span>
+    <div class="login">
+      <form action="">
+        <input type="text" placeholder="Username" class="login__input login--username">
+        <input type="password" placeholder="Password" class="login__input login--pass">
+        <button class="login__btn">Login</button>
+      </form>
+    </div>
+  </header>
+  <div class="user-interface">
+    <div class="welcomeandbalance">
+      <h1 class="welcome"></h1>
+      <h1 class="balance"></h1>
+    </div>
+    <div class="ui__main--cont">
+      <div class="ui__main--blurb ui__main--movs">
+        
+      </div>
+      <div class="ui__main--blurb ui__main--opt">
+        <div class="ui--form ui__main--transfer">
+          <form action="">
+            <div class="cont cont__transfer">
+              <input class="transfer--to" placeholder="To" type="text">
+              <input class="transfer--amount" placeholder="Amount" type="text">
+               <button class="btn--transfer">Transfer</button>
+            </div>
+          </form>
+        </div>
+        <div class="ui--form ui__main--loans">
+          <form action="">
+            <div class="cont cont__loan">
+              <input class="loanamount" placeholder="Amount" type="text">
+              <button class="btn--request">Request Loan</button>
+          </div>
+          </form>
+        </div>
+        <div class="ui--form ui__main--close">
+          <form action="">
+            <div class="cont cont__close">
+              <input class="close--un"placeholder="Username" type="text">
+              <input class="close--pass" placeholder="Password" type="text">
+              <button class="btn--close">Close Account</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="ui__foot">
+      <div class="ui__foot--in">
+
+      </div>
+      <div class="ui__foot--out">
+
+      </div>
+      <div class="ui__foot--interest">
+
+      </div>
+      <div class="ui__foot--sort">
+
+      </div>
+      <div class="ui__foot--timer">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="newAccount">
+    <form class="newAcc__form" action="">
+      <h1>Create a New Account</h1>
+      <div class="div">
+        <input class="form__input inew--firstname" type="text" placeholder="First Name">
+        <input class="form__input inew--lastname" type="text" placeholder="Last Name">
+      </div>
+      <input class="form__input inew--username" type="text" placeholder="Username">
+      <input class="form__input inew--password" type="password" placeholder="Password" maxlength="15" minlength="9">
+      <input class="form__input inew--email" type="text" placeholder="Email">
+      <div><button class="newAcc__btn">Submit</button></div>
+    </form>
+  </div>
+
+  <div class="info">
+    <i class="fas fa-info-circle"></i>
+  </div>
+  
+  
+  <!-- <div class="modal__container">
+    <div class="modal__window">
+      <h1>Congratulations! You have successfully signed up for an account with Bill's Banking.</h1>
+      <button>Close</button>
+    </div>
+  </div> -->
+  <div class="modal__containeri">
+    <div class="modal__windowi">
+      <h1>A Note on the Making of this Project</h1>
+      <p>This mini banking app is a HTML, CSS, and JavaScript project that closely mirrors a similiar project made by Jonas Schmedtmann in a Udemy course of his that I purchased and have been using to learn JavaScript. I created this project by means of walking through his lectures regarding array methods. The intent of this project was not to create something wholly new, but rather to become more familiar with JS array methods in order to learn how to better manipulate data using JavaScript. <br><br>
+
+      On the other hand, the code for the create-a-new-account functionality and the modal window was written by me. I also wrote the HTML and CSS with the intent of creating a layout similar in appearance to the Udemy project by Jonas Schmedtmann.
+       <br><br>
+
+      The following is a link to the GitHub folder containing Jonas' original banking application: <br><a href="https://github.com/jonasschmedtmann/complete-javascript-course/tree/master/11-Arrays-Bankist/final">Bankist: By Jonas Schmedtmann</a><br><br>
+      This page is not responsive.</p>
+      <h1>Login Information</h1>
+      <p>Use this login information to begin using the application (Choose any user or create your own account): <br>
+         1. Username: wb - Password: J316 <br>
+         2. Username: mc - Password: E289 <br>
+         3. Username: sm - Password: 1P224 <br>
+         4. Username: kvs - Password: 2C521 <br>
+      </p>.
+      <button class ='info--close'>Close</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
